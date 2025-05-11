@@ -1,12 +1,6 @@
-# 🧬 SARS-CoV-2 Genomic Surveillance Toolkit
+# SARS-CoV-2 Genomic Surveillance Toolkit
 
-A comprehensive suite of Python-based tools for large-scale SARS-CoV-2 genomic surveillance, lineage classification, mutation profiling, and real-time data transformation. This toolkit was instrumental in supporting national and international pandemic response efforts by enabling fast, efficient, and automated analysis of GISAID and Nextstrain metadata at scale.
-
----
-
-## 🌐 Introduction
-
-As the COVID-19 pandemic evolved, timely genomic surveillance became essential to detect emerging variants, assess mutation trends, and inform public health decisions. With thousands of SARS-CoV-2 sequences being generated weekly across India and globally, manual curation and analysis became impractical. To address this challenge, we developed a robust and modular toolkit that streamlines the end-to-end workflow—from **Extract-Transform-Load (ETL)** to variant classification and mutation-based reporting.
+A comprehensive suite of Python-based tools for large-scale SARS-CoV-2 genomic surveillance, lineage classification, mutation profiling, and real-time data transformation. This toolkit was instrumental in supporting national and international pandemic response efforts by enabling fast, efficient, and automated analysis of GISAID and Nextstrain metadata at scale. With thousands of SARS-CoV-2 sequences being generated weekly across India and globally, manual curation and analysis became impractical. To address this challenge, we developed a robust and modular toolkit that streamlines the end-to-end workflow—from **Extract-Transform-Load (ETL)** to variant classification and mutation-based reporting.
 
 This toolkit was deployed across multiple genomic surveillance projects, including India's national SARS-CoV-2 genomic surveillance (INSACOG) and BRICS-NGS networks. It was designed to:
 
@@ -20,7 +14,7 @@ Whether you're managing a genomic surveillance lab or analyzing global trends fo
 
 ---
 
-## 📌 Key Features
+## Key Features
 
 - 📊 **Exploratory Data Analysis (EDA)**: Clean and visualize Nextstrain metadata with lineage classification and mutation statistics.
 - 🧬 **Lineage Classification**: Map Pango lineages to WHO-recognized variants using batch logic and ImpLin tagging.
@@ -46,14 +40,12 @@ Whether you're managing a genomic surveillance lab or analyzing global trends fo
 
 ---
 
-## 📂 Input Format
+## Input Format
 
 - Input files should be `.tsv` (tab-separated) format from GISAID, Nextstrain, or custom pipelines.
 - Required columns include: `lineage`, `aaSubstitutions`, `date`, `division`, `clade`, etc.
 
----
-
-## 💾 Output Files
+## Output Files
 
 - Cleaned datasets in `.tsv` or `.xlsx` for downstream reporting
 - Mutation explosion tables with gene and position breakdown
@@ -61,17 +53,14 @@ Whether you're managing a genomic surveillance lab or analyzing global trends fo
 - Interactive HTML pivot tables for visualization
 - Summary sheets for recent months (e.g., May–August analysis)
 
----
 
-## 🛠 Requirements
+## Requirements
 
 - Python 3.7+
 - Required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `pivottablejs`
 
-```bash
-pip install pandas numpy matplotlib seaborn pivottablejs
-```
-## 🧑‍💻 Author
+
+## Author
 
 Rezwanuzzaman Laskar
 
