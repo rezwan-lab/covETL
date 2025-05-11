@@ -72,5 +72,7 @@ Whether you're managing a genomic surveillance lab or analyzing global trends fo
 pip install pandas numpy matplotlib seaborn pivottablejs
 ```
 ## 🧑‍💻 Author
+
 Rezwanuzzaman Laskar
+
 Lead Bioinformatician, INSACOG & NGS-BRICS
